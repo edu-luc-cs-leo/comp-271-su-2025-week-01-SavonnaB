@@ -1,5 +1,7 @@
 import java.util.Arrays; // for printing array
-
+// (Savonna Beard) The purpose of the function is to return the smallest integer in the array and remove it from the array. 
+// In line 83 the array must have temporary integers until the newest smallest integer is identified. Then the new temp array will reflect until a new command 
+// is input.
 /**
  * A class to demonstrate minimum heap operations using arrays
  */
@@ -62,7 +64,8 @@ public class Realistic {
             temporary[i - 1] = arr[i];
         }
         // replace principal array with temporary array.
-        arr = temporary;
+        // (Savonna Beard) -I'm assuming this is the Realistic.remove() item because I couldn't identify it anywhere else in the program
+        arr = new int[0];
         return result; // smallest element
     } // method getSmallest
 
