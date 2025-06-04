@@ -1,6 +1,6 @@
 import java.util.Arrays; // for printing array
 // (Savonna Beard) The purpose of the function is to return the smallest integer in the array and remove it from the array. 
-// In line 83 the array must have temporary integers until the newest smallest integer is identified. Then the new temp array will reflect until a new command 
+// In line 83 the array must have temporary integers placeholders until the newest smallest integer is identified. Then the new temp array will reflect until a new command 
 // is input.
 /**
  * A class to demonstrate minimum heap operations using arrays
